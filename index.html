@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Game</title>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<div class="game">
+<div class="score"></div>
+<div class="highScore"></div>
+
+<div class="startScreen">
+    <h2>Car Game</h2>
+    <div class="difficulty">
+        <label for="difficulty">Select Difficulty:</label>
+        <select id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+    </div>
+    <button class="ClickToStart">Start Game</button>
+</div>
+
+
+<div class="gameArea">
+    <div class="tree tree-left" style="top: 100px;"></div>
+    <div class="tree tree-right" style="top: 200px;"></div>
+    <div class="tree tree-left" style="top: 300px;"></div>
+    <div class="tree tree-right" style="top: 400px;"></div>
+    <div class="tree tree-left" style="top: 500px;"></div>
+    <div class="tree tree-right" style="top: 600px;"></div>
+</div>
+
+</div>
+<div class="gameArea"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
